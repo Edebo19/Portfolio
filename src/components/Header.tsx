@@ -16,15 +16,15 @@ const Header: React.FC = () => {
     <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-200">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="text-xl font-bold text-slate-800">Peace Edebo</div>
+          <div className="text-xl font-bold text-blue-800">Okelemu Peace Edebo</div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item) => (
-              <button
+              <button 
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
-                className="text-slate-800 hover:text-blue-500 transition-colors duration-200"
+                className="text-slate-800 cursor-pointer hover:text-blue-500 transition-colors duration-200"
               >
                 {item}
               </button>
@@ -48,7 +48,7 @@ const Header: React.FC = () => {
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
-                  className="block w-full text-left px-4 text-slate-800 hover:text-blue-500 transition-colors duration-200"
+                  className="block w-full cursor-pointer text-left px-4 text-slate-800 hover:text-blue-500 transition-colors duration-200"
                 >
                   {item}
                 </button>

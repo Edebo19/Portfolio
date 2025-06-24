@@ -1,10 +1,10 @@
-import { Contact } from "lucide-react";
 import About from "./About";
 import Header from "./Header";
 import Home from "./Home";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Footer from "./Footer";
+import Contact from "./Contact";
 
 const Portfolio: React.FC = () => {
   return (
