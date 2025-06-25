@@ -47,14 +47,14 @@ const Contact: React.FC = () => {
                 className="flex items-center gap-3 text-slate-600 hover:text-blue-500 transition-colors duration-200"
               >
                 <Github size={20} />
-                github.com/peaceadebo
+                github.com/Edebo19
               </a>
               <a
-                href="https://linkedin.com/in/peace-edebo"
+                href="https://www.linkedin.com/in/peace-okelemu-98856324"
                 className="flex items-center gap-3 text-slate-600 hover:text-blue-500 transition-colors duration-200"
               >
                 <Linkedin size={20} />
-                linkedin.com/in/peace-edebo
+                linkedin.com/in/peace-okelemu-98856324
               </a>
             </div>
           </div>
